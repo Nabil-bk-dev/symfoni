@@ -13,11 +13,19 @@ class LuckyController extends AbstractController
     {
         $number = random_int(0, 100);
 
+<<<<<<< HEAD
         // return new Response(
         //     '<html><body>Lucky number: '.$number.'</body></html>'
         // );
         return $this->render('lucky/number.html.twig', [
             'number' => $number,
+=======
+        /*return new Response(
+            '<html><body>Lucky number: '.$number.'</body></html>'
+        );*/
+        return $this->render('lucky/number.html.twig', [
+            'toto' => $number,
+>>>>>>> 80fffa8 (ajout des fichiers)
         ]);
     }
 }

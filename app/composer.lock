@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "faf0daf351769a6d64ec1b55133614bf",
+=======
+    "content-hash": "b8c61afcda350f0397b2013130f39708",
+>>>>>>> 80fffa8 (ajout des fichiers)
     "packages": [
         {
             "name": "composer/semver",
@@ -1302,6 +1306,7 @@
             "time": "2025-01-24T11:45:48+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "egulias/email-validator",
             "version": "4.0.3",
             "source": {
@@ -1328,6 +1333,69 @@
                 "ext-intl": "PHP Internationalization Libraries are required to use the SpoofChecking validation"
             },
             "type": "library",
+=======
+            "name": "easycorp/easyadmin-bundle",
+            "version": "v4.24.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/EasyCorp/EasyAdminBundle.git",
+                "reference": "3eeb8f1dc94c991423a386f3fc334f6caadc8054"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/EasyCorp/EasyAdminBundle/zipball/3eeb8f1dc94c991423a386f3fc334f6caadc8054",
+                "reference": "3eeb8f1dc94c991423a386f3fc334f6caadc8054",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-bundle": "^2.5",
+                "doctrine/orm": "^2.12|^3.0",
+                "ext-json": "*",
+                "php": ">=8.1",
+                "symfony/asset": "^5.4|^6.0|^7.0",
+                "symfony/cache": "^5.4|^6.0|^7.0",
+                "symfony/config": "^5.4|^6.0|^7.0",
+                "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                "symfony/deprecation-contracts": "^3.0",
+                "symfony/doctrine-bridge": "^5.4|^6.0|^7.0",
+                "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
+                "symfony/filesystem": "^5.4|^6.0|^7.0",
+                "symfony/form": "^5.4|^6.0|^7.0",
+                "symfony/framework-bundle": "^5.4|^6.0|^7.0",
+                "symfony/http-foundation": "^5.4|^6.0|^7.0",
+                "symfony/http-kernel": "^5.4|^6.0|^7.0",
+                "symfony/intl": "^5.4|^6.0|^7.0",
+                "symfony/property-access": "^5.4|^6.0|^7.0",
+                "symfony/security-bundle": "^5.4|^6.0|^7.0",
+                "symfony/string": "^5.4|^6.0|^7.0",
+                "symfony/translation": "^5.4|^6.0|^7.0",
+                "symfony/twig-bundle": "^5.4|^6.0|^7.0",
+                "symfony/uid": "^5.4|^6.0|^7.0",
+                "symfony/ux-twig-component": "^2.21",
+                "symfony/validator": "^5.4|^6.0|^7.0",
+                "twig/extra-bundle": "^3.17",
+                "twig/html-extra": "^3.17",
+                "twig/twig": "^3.15"
+            },
+            "require-dev": {
+                "doctrine/doctrine-fixtures-bundle": "^3.4|3.5.x-dev",
+                "phpstan/extension-installer": "^1.2",
+                "phpstan/phpstan": "^1.9",
+                "phpstan/phpstan-phpunit": "^1.2",
+                "phpstan/phpstan-strict-rules": "^1.4",
+                "phpstan/phpstan-symfony": "^1.2",
+                "psr/log": "^1.0",
+                "symfony/browser-kit": "^5.4|^6.0|^7.0",
+                "symfony/css-selector": "^5.4|^6.0|^7.0",
+                "symfony/debug-bundle": "^5.4|^6.0|^7.0",
+                "symfony/dom-crawler": "^5.4|^6.0|^7.0",
+                "symfony/expression-language": "^5.4|^6.0|^7.0",
+                "symfony/phpunit-bridge": "^6.1|^7.0",
+                "symfony/process": "^5.4|^6.0|^7.0",
+                "symfony/web-link": "^5.4|^6.0|^7.0"
+            },
+            "type": "symfony-bundle",
+>>>>>>> 80fffa8 (ajout des fichiers)
             "extra": {
                 "branch-alias": {
                     "dev-master": "4.0.x-dev"
@@ -1335,7 +1403,11 @@
             },
             "autoload": {
                 "psr-4": {
+<<<<<<< HEAD
                     "Egulias\\EmailValidator\\": "src"
+=======
+                    "EasyCorp\\Bundle\\EasyAdminBundle\\": "src/"
+>>>>>>> 80fffa8 (ajout des fichiers)
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1344,6 +1416,7 @@
             ],
             "authors": [
                 {
+<<<<<<< HEAD
                     "name": "Eduardo Gulias Davis"
                 }
             ],
@@ -1435,6 +1508,71 @@
             "autoload": {
                 "psr-4": {
                     "Monolog\\": "src/Monolog"
+=======
+                    "name": "Project Contributors",
+                    "homepage": "https://github.com/EasyCorp/EasyAdminBundle/graphs/contributors"
+                }
+            ],
+            "description": "Admin generator for Symfony applications",
+            "homepage": "https://github.com/EasyCorp/EasyAdminBundle",
+            "keywords": [
+                "admin",
+                "backend",
+                "generator"
+            ],
+            "support": {
+                "issues": "https://github.com/EasyCorp/EasyAdminBundle/issues",
+                "source": "https://github.com/EasyCorp/EasyAdminBundle/tree/v4.24.3"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/javiereguiluz",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-12T19:14:43+00:00"
+        },
+        {
+            "name": "fakerphp/faker",
+            "version": "v1.24.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FakerPHP/Faker.git",
+                "reference": "e0ee18eb1e6dc3cda3ce9fd97e5a0689a88a64b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FakerPHP/Faker/zipball/e0ee18eb1e6dc3cda3ce9fd97e5a0689a88a64b5",
+                "reference": "e0ee18eb1e6dc3cda3ce9fd97e5a0689a88a64b5",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "psr/container": "^1.0 || ^2.0",
+                "symfony/deprecation-contracts": "^2.2 || ^3.0"
+            },
+            "conflict": {
+                "fzaninotto/faker": "*"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.4.1",
+                "doctrine/persistence": "^1.3 || ^2.0",
+                "ext-intl": "*",
+                "phpunit/phpunit": "^9.5.26",
+                "symfony/phpunit-bridge": "^5.4.16"
+            },
+            "suggest": {
+                "doctrine/orm": "Required to use Faker\\ORM\\Doctrine",
+                "ext-curl": "Required by Faker\\Provider\\Image to download images.",
+                "ext-dom": "Required by Faker\\Provider\\HtmlLorem for generating random HTML.",
+                "ext-iconv": "Required by Faker\\Provider\\ru_RU\\Text::realText() for generating real Russian text.",
+                "ext-mbstring": "Required for multibyte Unicode string functionality."
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+>>>>>>> 80fffa8 (ajout des fichiers)
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1443,6 +1581,7 @@
             ],
             "authors": [
                 {
+<<<<<<< HEAD
                     "name": "Jordi Boggiano",
                     "email": "j.boggiano@seld.be",
                     "homepage": "https://seld.be"
@@ -1692,6 +1831,22 @@
                 "source": "https://github.com/phpstan/phpdoc-parser/tree/2.0.0"
             },
             "time": "2024-10-13T11:29:49+00:00"
+=======
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "support": {
+                "issues": "https://github.com/FakerPHP/Faker/issues",
+                "source": "https://github.com/FakerPHP/Faker/tree/v1.24.1"
+            },
+            "time": "2024-11-21T13:46:39+00:00"
+>>>>>>> 80fffa8 (ajout des fichiers)
         },
         {
             "name": "psr/cache",
@@ -1894,6 +2049,7 @@
             "time": "2019-01-08T18:20:26+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "psr/link",
             "version": "2.0.1",
             "source": {
@@ -1950,6 +2106,8 @@
             "time": "2021-03-11T23:00:27+00:00"
         },
         {
+=======
+>>>>>>> 80fffa8 (ajout des fichiers)
             "name": "psr/log",
             "version": "3.0.2",
             "source": {
@@ -2820,6 +2978,7 @@
             "time": "2025-01-27T11:08:17+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/doctrine-messenger",
             "version": "v7.2.3",
             "source": {
@@ -2892,6 +3051,8 @@
             "time": "2025-01-07T09:39:55+00:00"
         },
         {
+=======
+>>>>>>> 80fffa8 (ajout des fichiers)
             "name": "symfony/dotenv",
             "version": "v7.2.0",
             "source": {
@@ -3197,6 +3358,7 @@
             "time": "2024-09-25T14:20:29+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/expression-language",
             "version": "v7.2.0",
             "source": {
@@ -3261,6 +3423,8 @@
             "time": "2024-10-15T11:52:45+00:00"
         },
         {
+=======
+>>>>>>> 80fffa8 (ajout des fichiers)
             "name": "symfony/filesystem",
             "version": "v7.2.0",
             "source": {
@@ -3707,6 +3871,7 @@
         },
         {
             "name": "symfony/http-client",
+<<<<<<< HEAD
             "version": "v7.2.3",
             "source": {
                 "type": "git",
@@ -3717,6 +3882,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/http-client/zipball/7ce6078c79a4a7afff931c413d2959d3bffbfb8d",
                 "reference": "7ce6078c79a4a7afff931c413d2959d3bffbfb8d",
+=======
+            "version": "v7.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/http-client.git",
+                "reference": "78981a2ffef6437ed92d4d7e2a86a82f256c6dc6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/78981a2ffef6437ed92d4d7e2a86a82f256c6dc6",
+                "reference": "78981a2ffef6437ed92d4d7e2a86a82f256c6dc6",
+>>>>>>> 80fffa8 (ajout des fichiers)
                 "shasum": ""
             },
             "require": {
@@ -3782,7 +3959,11 @@
                 "http"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/http-client/tree/v7.2.3"
+=======
+                "source": "https://github.com/symfony/http-client/tree/v7.2.4"
+>>>>>>> 80fffa8 (ajout des fichiers)
             },
             "funding": [
                 {
@@ -3798,7 +3979,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-01-28T15:51:35+00:00"
+=======
+            "time": "2025-02-13T10:27:23+00:00"
+>>>>>>> 80fffa8 (ajout des fichiers)
         },
         {
             "name": "symfony/http-client-contracts",
@@ -4157,6 +4342,7 @@
             "time": "2024-11-25T14:26:33+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/mailer",
             "version": "v7.2.3",
             "source": {
@@ -4335,6 +4521,19 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/mime/zipball/2fc3b4bd67e4747e45195bc4c98bea4628476204",
                 "reference": "2fc3b4bd67e4747e45195bc4c98bea4628476204",
+=======
+            "name": "symfony/mime",
+            "version": "v7.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/mime.git",
+                "reference": "87ca22046b78c3feaff04b337f33b38510fd686b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/mime/zipball/87ca22046b78c3feaff04b337f33b38510fd686b",
+                "reference": "87ca22046b78c3feaff04b337f33b38510fd686b",
+>>>>>>> 80fffa8 (ajout des fichiers)
                 "shasum": ""
             },
             "require": {
@@ -4389,7 +4588,11 @@
                 "mime-type"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/mime/tree/v7.2.3"
+=======
+                "source": "https://github.com/symfony/mime/tree/v7.2.4"
+>>>>>>> 80fffa8 (ajout des fichiers)
             },
             "funding": [
                 {
@@ -4405,6 +4608,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-01-27T11:08:17+00:00"
         },
         {
@@ -4643,6 +4847,9 @@
                 }
             ],
             "time": "2024-11-15T13:52:25+00:00"
+=======
+            "time": "2025-02-19T08:51:20+00:00"
+>>>>>>> 80fffa8 (ajout des fichiers)
         },
         {
             "name": "symfony/options-resolver",
@@ -5266,6 +5473,7 @@
             "time": "2024-09-09T11:45:10+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/process",
             "version": "v7.2.0",
             "source": {
@@ -5290,6 +5498,44 @@
                 "exclude-from-classmap": [
                     "/Tests/"
                 ]
+=======
+            "name": "symfony/polyfill-uuid",
+            "version": "v1.31.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-uuid.git",
+                "reference": "21533be36c24be3f4b1669c4725c7d1d2bab4ae2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-uuid/zipball/21533be36c24be3f4b1669c4725c7d1d2bab4ae2",
+                "reference": "21533be36c24be3f4b1669c4725c7d1d2bab4ae2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "provide": {
+                "ext-uuid": "*"
+            },
+            "suggest": {
+                "ext-uuid": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Uuid\\": ""
+                }
+>>>>>>> 80fffa8 (ajout des fichiers)
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -5297,18 +5543,36 @@
             ],
             "authors": [
                 {
+<<<<<<< HEAD
                     "name": "Fabien Potencier",
                     "email": "fabien@symfony.com"
+=======
+                    "name": "Grégoire Pineau",
+                    "email": "lyrixx@lyrixx.info"
+>>>>>>> 80fffa8 (ajout des fichiers)
                 },
                 {
                     "name": "Symfony Community",
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
+<<<<<<< HEAD
             "description": "Executes commands in sub-processes",
             "homepage": "https://symfony.com",
             "support": {
                 "source": "https://github.com/symfony/process/tree/v7.2.0"
+=======
+            "description": "Symfony polyfill for uuid functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "uuid"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-uuid/tree/v1.31.0"
+>>>>>>> 80fffa8 (ajout des fichiers)
             },
             "funding": [
                 {
@@ -5324,7 +5588,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-11-06T14:24:19+00:00"
+=======
+            "time": "2024-09-09T11:45:10+00:00"
+>>>>>>> 80fffa8 (ajout des fichiers)
         },
         {
             "name": "symfony/property-access",
@@ -5912,6 +6180,7 @@
         },
         {
             "name": "symfony/security-http",
+<<<<<<< HEAD
             "version": "v7.2.3",
             "source": {
                 "type": "git",
@@ -5922,6 +6191,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/security-http/zipball/d185c4126ef2ca8b89b6e81d67bf14a52532657f",
                 "reference": "d185c4126ef2ca8b89b6e81d67bf14a52532657f",
+=======
+            "version": "v7.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/security-http.git",
+                "reference": "8478e95e273f8daa23bf4860dbad2a09d3fb3722"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/security-http/zipball/8478e95e273f8daa23bf4860dbad2a09d3fb3722",
+                "reference": "8478e95e273f8daa23bf4860dbad2a09d3fb3722",
+>>>>>>> 80fffa8 (ajout des fichiers)
                 "shasum": ""
             },
             "require": {
@@ -5980,7 +6261,11 @@
             "description": "Symfony Security Component - HTTP Integration",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/security-http/tree/v7.2.3"
+=======
+                "source": "https://github.com/symfony/security-http/tree/v7.2.4"
+>>>>>>> 80fffa8 (ajout des fichiers)
             },
             "funding": [
                 {
@@ -5996,6 +6281,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-01-28T15:51:35+00:00"
         },
         {
@@ -6095,6 +6381,9 @@
                 }
             ],
             "time": "2025-01-29T07:13:55+00:00"
+=======
+            "time": "2025-02-11T16:46:20+00:00"
+>>>>>>> 80fffa8 (ajout des fichiers)
         },
         {
             "name": "symfony/service-contracts",
@@ -6180,6 +6469,7 @@
             "time": "2024-09-25T14:20:29+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/stimulus-bundle",
             "version": "v2.22.1",
             "source": {
@@ -6249,6 +6539,8 @@
             "time": "2024-12-06T14:30:33+00:00"
         },
         {
+=======
+>>>>>>> 80fffa8 (ajout des fichiers)
             "name": "symfony/stopwatch",
             "version": "v7.2.2",
             "source": {
@@ -6399,6 +6691,7 @@
         },
         {
             "name": "symfony/translation",
+<<<<<<< HEAD
             "version": "v7.2.2",
             "source": {
                 "type": "git",
@@ -6409,6 +6702,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/translation/zipball/e2674a30132b7cc4d74540d6c2573aa363f05923",
                 "reference": "e2674a30132b7cc4d74540d6c2573aa363f05923",
+=======
+            "version": "v7.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/translation.git",
+                "reference": "283856e6981286cc0d800b53bd5703e8e363f05a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/283856e6981286cc0d800b53bd5703e8e363f05a",
+                "reference": "283856e6981286cc0d800b53bd5703e8e363f05a",
+>>>>>>> 80fffa8 (ajout des fichiers)
                 "shasum": ""
             },
             "require": {
@@ -6474,7 +6779,11 @@
             "description": "Provides tools to internationalize your application",
             "homepage": "https://symfony.com",
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/translation/tree/v7.2.2"
+=======
+                "source": "https://github.com/symfony/translation/tree/v7.2.4"
+>>>>>>> 80fffa8 (ajout des fichiers)
             },
             "funding": [
                 {
@@ -6490,7 +6799,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-12-07T08:18:10+00:00"
+=======
+            "time": "2025-02-13T10:27:23+00:00"
+>>>>>>> 80fffa8 (ajout des fichiers)
         },
         {
             "name": "symfony/translation-contracts",
@@ -6840,6 +7153,7 @@
             "time": "2024-12-20T13:38:37+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/ux-turbo",
             "version": "v2.22.1",
             "source": {
@@ -6893,6 +7207,36 @@
                 "psr-4": {
                     "Symfony\\UX\\Turbo\\": "src/"
                 }
+=======
+            "name": "symfony/uid",
+            "version": "v7.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/uid.git",
+                "reference": "2d294d0c48df244c71c105a169d0190bfb080426"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/uid/zipball/2d294d0c48df244c71c105a169d0190bfb080426",
+                "reference": "2d294d0c48df244c71c105a169d0190bfb080426",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2",
+                "symfony/polyfill-uuid": "^1.15"
+            },
+            "require-dev": {
+                "symfony/console": "^6.4|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Uid\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+>>>>>>> 80fffa8 (ajout des fichiers)
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -6900,14 +7244,24 @@
             ],
             "authors": [
                 {
+<<<<<<< HEAD
                     "name": "Kévin Dunglas",
                     "email": "kevin@dunglas.fr"
+=======
+                    "name": "Grégoire Pineau",
+                    "email": "lyrixx@lyrixx.info"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+>>>>>>> 80fffa8 (ajout des fichiers)
                 },
                 {
                     "name": "Symfony Community",
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
+<<<<<<< HEAD
             "description": "Hotwire Turbo integration for Symfony",
             "homepage": "https://symfony.com",
             "keywords": [
@@ -6920,6 +7274,17 @@
             ],
             "support": {
                 "source": "https://github.com/symfony/ux-turbo/tree/v2.22.1"
+=======
+            "description": "Provides an object-oriented API to generate and represent UIDs",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "UID",
+                "ulid",
+                "uuid"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/uid/tree/v7.2.0"
+>>>>>>> 80fffa8 (ajout des fichiers)
             },
             "funding": [
                 {
@@ -6935,7 +7300,94 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-12-05T14:25:02+00:00"
+=======
+            "time": "2024-09-25T14:21:43+00:00"
+        },
+        {
+            "name": "symfony/ux-twig-component",
+            "version": "v2.23.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/ux-twig-component.git",
+                "reference": "f29033b95e93aea2d498dc40eac185ed14b07800"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/ux-twig-component/zipball/f29033b95e93aea2d498dc40eac185ed14b07800",
+                "reference": "f29033b95e93aea2d498dc40eac185ed14b07800",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1",
+                "symfony/dependency-injection": "^5.4|^6.0|^7.0",
+                "symfony/deprecation-contracts": "^2.2|^3.0",
+                "symfony/event-dispatcher": "^5.4|^6.0|^7.0",
+                "symfony/property-access": "^5.4|^6.0|^7.0",
+                "twig/twig": "^3.8"
+            },
+            "conflict": {
+                "symfony/config": "<5.4.0"
+            },
+            "require-dev": {
+                "symfony/console": "^5.4|^6.0|^7.0",
+                "symfony/css-selector": "^5.4|^6.0|^7.0",
+                "symfony/dom-crawler": "^5.4|^6.0|^7.0",
+                "symfony/framework-bundle": "^5.4|^6.0|^7.0",
+                "symfony/phpunit-bridge": "^6.0|^7.0",
+                "symfony/stimulus-bundle": "^2.9.1",
+                "symfony/twig-bundle": "^5.4|^6.0|^7.0",
+                "symfony/webpack-encore-bundle": "^1.15"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "thanks": {
+                    "url": "https://github.com/symfony/ux",
+                    "name": "symfony/ux"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\UX\\TwigComponent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Twig components for Symfony",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "components",
+                "symfony-ux",
+                "twig"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/ux-twig-component/tree/v2.23.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-01-25T02:19:26+00:00"
+>>>>>>> 80fffa8 (ajout des fichiers)
         },
         {
             "name": "symfony/validator",
@@ -7194,6 +7646,7 @@
             "time": "2024-10-18T07:58:17+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/web-link",
             "version": "v7.2.0",
             "source": {
@@ -7277,6 +7730,8 @@
             "time": "2024-09-25T14:21:43+00:00"
         },
         {
+=======
+>>>>>>> 80fffa8 (ajout des fichiers)
             "name": "symfony/yaml",
             "version": "v7.2.3",
             "source": {
@@ -7423,6 +7878,77 @@
             "time": "2024-09-26T19:22:23+00:00"
         },
         {
+<<<<<<< HEAD
+=======
+            "name": "twig/html-extra",
+            "version": "v3.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/html-extra.git",
+                "reference": "f7d54d4de1b64182af745cfb66777f699b599734"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/html-extra/zipball/f7d54d4de1b64182af745cfb66777f699b599734",
+                "reference": "f7d54d4de1b64182af745cfb66777f699b599734",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.1.0",
+                "symfony/deprecation-contracts": "^2.5|^3",
+                "symfony/mime": "^5.4|^6.4|^7.0",
+                "twig/twig": "^3.13|^4.0"
+            },
+            "require-dev": {
+                "symfony/phpunit-bridge": "^6.4|^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "Resources/functions.php"
+                ],
+                "psr-4": {
+                    "Twig\\Extra\\Html\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                }
+            ],
+            "description": "A Twig extension for HTML",
+            "homepage": "https://twig.symfony.com",
+            "keywords": [
+                "html",
+                "twig"
+            ],
+            "support": {
+                "source": "https://github.com/twigphp/html-extra/tree/v3.20.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/twig/twig",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2025-01-31T20:45:36+00:00"
+        },
+        {
+>>>>>>> 80fffa8 (ajout des fichiers)
             "name": "twig/twig",
             "version": "v3.19.0",
             "source": {
@@ -7501,6 +8027,7 @@
                 }
             ],
             "time": "2025-01-29T07:06:14+00:00"
+<<<<<<< HEAD
         },
         {
             "name": "webmozart/assert",
@@ -7559,6 +8086,8 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+=======
+>>>>>>> 80fffa8 (ajout des fichiers)
         }
     ],
     "packages-dev": [
@@ -7732,6 +8261,7 @@
             "time": "2024-12-05T18:35:55+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "masterminds/html5",
             "version": "2.9.0",
             "source": {
@@ -7859,6 +8389,8 @@
             "time": "2024-11-08T17:47:46+00:00"
         },
         {
+=======
+>>>>>>> 80fffa8 (ajout des fichiers)
             "name": "nikic/php-parser",
             "version": "v5.4.0",
             "source": {
@@ -7917,6 +8449,7 @@
             "time": "2024-12-30T11:07:19+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "phar-io/manifest",
             "version": "2.0.4",
             "source": {
@@ -9694,6 +10227,8 @@
             "time": "2025-01-27T11:08:17+00:00"
         },
         {
+=======
+>>>>>>> 80fffa8 (ajout des fichiers)
             "name": "symfony/maker-bundle",
             "version": "v1.62.1",
             "source": {
@@ -9786,6 +10321,7 @@
             "time": "2025-01-15T00:21:40+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "symfony/phpunit-bridge",
             "version": "v7.2.0",
             "source": {
@@ -9830,6 +10366,31 @@
                 "exclude-from-classmap": [
                     "/Tests/",
                     "/bin/"
+=======
+            "name": "symfony/process",
+            "version": "v7.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/process.git",
+                "reference": "d34b22ba9390ec19d2dd966c40aa9e8462f27a7e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/process/zipball/d34b22ba9390ec19d2dd966c40aa9e8462f27a7e",
+                "reference": "d34b22ba9390ec19d2dd966c40aa9e8462f27a7e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=8.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Process\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+>>>>>>> 80fffa8 (ajout des fichiers)
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -9838,18 +10399,30 @@
             ],
             "authors": [
                 {
+<<<<<<< HEAD
                     "name": "Nicolas Grekas",
                     "email": "p@tchwork.com"
+=======
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+>>>>>>> 80fffa8 (ajout des fichiers)
                 },
                 {
                     "name": "Symfony Community",
                     "homepage": "https://symfony.com/contributors"
                 }
             ],
+<<<<<<< HEAD
             "description": "Provides utilities for PHPUnit, especially user deprecation notices management",
             "homepage": "https://symfony.com",
             "support": {
                 "source": "https://github.com/symfony/phpunit-bridge/tree/v7.2.0"
+=======
+            "description": "Executes commands in sub-processes",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/process/tree/v7.2.0"
+>>>>>>> 80fffa8 (ajout des fichiers)
             },
             "funding": [
                 {
@@ -9865,6 +10438,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2024-11-13T16:15:23+00:00"
         },
         {
@@ -9879,6 +10453,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/symfony/web-profiler-bundle/zipball/cd60cb3664954a1593872f6f199bffac99e8c11e",
                 "reference": "cd60cb3664954a1593872f6f199bffac99e8c11e",
+=======
+            "time": "2024-11-06T14:24:19+00:00"
+        },
+        {
+            "name": "symfony/web-profiler-bundle",
+            "version": "v7.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/web-profiler-bundle.git",
+                "reference": "4ffde1c860a100533b02697d9aaf5f45759ec26a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/web-profiler-bundle/zipball/4ffde1c860a100533b02697d9aaf5f45759ec26a",
+                "reference": "4ffde1c860a100533b02697d9aaf5f45759ec26a",
+>>>>>>> 80fffa8 (ajout des fichiers)
                 "shasum": ""
             },
             "require": {
@@ -9931,7 +10521,11 @@
                 "dev"
             ],
             "support": {
+<<<<<<< HEAD
                 "source": "https://github.com/symfony/web-profiler-bundle/tree/v7.2.3"
+=======
+                "source": "https://github.com/symfony/web-profiler-bundle/tree/v7.2.4"
+>>>>>>> 80fffa8 (ajout des fichiers)
             },
             "funding": [
                 {
@@ -9947,6 +10541,7 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2025-01-07T09:39:55+00:00"
         },
         {
@@ -9998,6 +10593,9 @@
                 }
             ],
             "time": "2024-03-03T12:36:25+00:00"
+=======
+            "time": "2025-02-14T14:27:24+00:00"
+>>>>>>> 80fffa8 (ajout des fichiers)
         }
     ],
     "aliases": [],

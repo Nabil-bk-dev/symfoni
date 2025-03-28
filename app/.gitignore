@@ -9,6 +9,7 @@
 /vendor/
 ###< symfony/framework-bundle ###
 
+<<<<<<< HEAD
 ###> phpunit/phpunit ###
 /phpunit.xml
 .phpunit.result.cache
@@ -19,6 +20,8 @@
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
 
+=======
+>>>>>>> 80fffa8 (ajout des fichiers)
 ###> symfony/asset-mapper ###
 /public/assets/
 /assets/vendor/
